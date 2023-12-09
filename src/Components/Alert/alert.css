@@ -1,0 +1,32 @@
+.wishlist-alert{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    display: none;
+    background-color: rgb(96, 158, 230);
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.fade-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation:fade-in .5s cubic-bezier(.39,.575,.565,1.000) both;
+    animation:fade-in .5s cubic-bezier(.39,.575,.565,1.000) both
+}
+
+
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
